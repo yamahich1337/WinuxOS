@@ -1,0 +1,10 @@
+cd
+
+echo ""
+echo "Welcome to la finale of setup. Please be patient."
+apt update>/dev/null 2>&1
+apt upgrade>/dev/null 2>&1
+apt install kde-plasma-desktop>/dev/null 2>&1
+apt install wine>/dev/null 2>&1
+apt install firefox>/dev/null 2>&1
+
