@@ -1,5 +1,5 @@
 cd
-
+ chmod +x ./setup-debian
 echo ""
 echo "Welcome to la finale of setup. Please be patient."
 apt update>/dev/null 2>&1
