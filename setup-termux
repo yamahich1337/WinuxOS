@@ -22,9 +22,23 @@ pkg update >/dev/null 2>&1
 pkg upgrade >/dev/null 2>&1
 
 echo ""
-echo "Downloading all needed repo's"
+echo "Downloading everything we need"
+clear
+echo ""
+echo "installing pd"
 pkg install proot-distro 
-pkg install wget 
+clear
+echo ""
+echo "installing wget"
+pkg install wget
+echo ""
+echo "installing x11"
+clear
+pkg install x11-repo
+clear
+echo ""
+echo "installing x11"
+pkg install termux-x11-nightly
 
 proot-distro install debian
 clear
