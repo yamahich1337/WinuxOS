@@ -1,14 +1,22 @@
-cd
- chmod +x ./setup-debian
+
 echo ""
-echo "Welcome to la finale of setup. Please be patient."
-apt update>/dev/null 2>&1
-apt upgrade>/dev/null 2>&1
-apt install kde-plasma-desktop>/dev/null 2>&1
-apt install wine>/dev/null 2>&1
-apt install firefox>/dev/null 2>&1
-export DISTRIB_DESCRIPTION="WinuxOS">/dev/null 2>&1
-source ~/.bashrc>/dev/null 2>&1
+echo "Welcome to final of setup"
+sleep 3
+clear
+apt update
+clear
+apt upgrade
+clear
+apt install kde-plasma-desktop
+clear
+apt install wine
+clear
+apt install firefox
+clear
+export DISTRIB_DESCRIPTION="WinuxOS"
+clear
+source ~/.bashrc
+clear
 
 echo ""
 echo "Thank you for installing our OS. Run next-time by ./winux"
