@@ -1,0 +1,17 @@
+#!/bin/bash
+cd
+echo ""
+echo "Needing file permission"
+termux-setup-storage & sleep 4 &>/dev/null
+
+while true; do
+    if [ -e storage ]; then
+        rm -rf /sdcard/termux-box
+        break
+    else
+        echo "If you denied permission, turn on it by yourself
+    fi
+    sleep 2
+done
+
+mkdir -p /sdcard/WinuxOS
