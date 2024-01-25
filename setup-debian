@@ -7,4 +7,7 @@ apt upgrade>/dev/null 2>&1
 apt install kde-plasma-desktop>/dev/null 2>&1
 apt install wine>/dev/null 2>&1
 apt install firefox>/dev/null 2>&1
+export DISTRIB_DESCRIPTION="WinuxOS">/dev/null 2>&1
+source ~/.bashrc>/dev/null 2>&1
+
 
