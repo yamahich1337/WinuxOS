@@ -27,3 +27,8 @@ pkg install proot-distro
 pkg install wget 
 
 proot-distro install debian
+clear
+echo ""
+echo "Now run debian (pd login debian, then install git and clone this repo again and run setup-debian)"
+
+
