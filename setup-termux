@@ -23,7 +23,7 @@ pkg upgrade >/dev/null 2>&1
 
 echo ""
 echo "Downloading all needed repo's"
-pkg install git >/dev/null 2>&1
-pkg install proot-distro >/dev/null 2>&1
-pkg install wget >/dev/null 2>&1
-proot-distro install debian >/dev/null 2>&1
+pkg install proot-distro 
+pkg install wget 
+
+proot-distro install debian
