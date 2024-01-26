@@ -17,7 +17,7 @@ apt install openbox-kde-session
 clear
 apt install wine
 clear
-apt install firefox
+apt install firefox-esr
 clear
 export DISTRIB_DESCRIPTION="WinuxOS"
 clear
