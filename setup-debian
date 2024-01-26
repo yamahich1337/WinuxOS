@@ -7,7 +7,13 @@ apt update
 clear
 apt upgrade
 clear
+echo ""
+echo "installing plasma by kde"
 apt install kde-plasma-desktop
+clear
+echo ""
+echo "installing window manager"
+apt install openbox-kde-session
 clear
 apt install wine
 clear
