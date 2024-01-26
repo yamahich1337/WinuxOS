@@ -1,1 +1,1 @@
-proot-distro login debian --shared-tmp && termux-x11 % && export DISPLAY=:0
+proot-distro login debian --shared-tmp && termux-x11 & && export DISPLAY=:0 && openbox-kde-session
